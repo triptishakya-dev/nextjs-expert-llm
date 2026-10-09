@@ -18,12 +18,17 @@ os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
 ROOT = Path(__file__).resolve().parents[1]
 
 MODEL_NAME = "Qwen/Qwen3-0.6B"
-OUTPUT_DIR = ROOT / "models" / "nextjs-lora"
+OUTPUT_DIR = ROOT / "models" / "nextjs-lora-test"
 
-MAX_LENGTH = 256
+MAX_LENGTH = 128
 
-# True = short test; False = full training
-SMOKE_TEST = True
+# Smoke-test settings (4 GB GPU). Set MAX_TRAIN_SAMPLES = None and
+# MAX_STEPS = -1 for full training.
+MAX_TRAIN_SAMPLES = 20
+MAX_STEPS = 5
+LEARNING_RATE = 2e-4
+GRADIENT_ACCUMULATION_STEPS = 2
+GRADIENT_CHECKPOINTING = False
 
 if not torch.cuda.is_available():
     raise RuntimeError("CUDA GPU not available")
@@ -59,9 +64,9 @@ dataset = load_dataset(
     },
 )
 
-if SMOKE_TEST:
+if MAX_TRAIN_SAMPLES is not None:
     dataset["train"] = dataset["train"].select(
-        range(min(64, len(dataset["train"])))
+        range(min(MAX_TRAIN_SAMPLES, len(dataset["train"])))
     )
 
 def tokenize(batch):
@@ -92,7 +97,8 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 
 model.config.use_cache = False
-model.gradient_checkpointing_enable()
+if GRADIENT_CHECKPOINTING:
+    model.gradient_checkpointing_enable()
 
 # ====================================
 # 4. Configure LoRA
@@ -126,20 +132,20 @@ args = TrainingArguments(
     output_dir=str(OUTPUT_DIR),
 
     per_device_train_batch_size=1,
-    gradient_accumulation_steps=4,
+    gradient_accumulation_steps=GRADIENT_ACCUMULATION_STEPS,
 
-    learning_rate=5e-5,
+    learning_rate=LEARNING_RATE,
     num_train_epochs=1,
 
-    max_steps=10 if SMOKE_TEST else -1,
+    max_steps=MAX_STEPS,
 
     fp16=True,
     bf16=False,
 
-    gradient_checkpointing=True,
+    gradient_checkpointing=GRADIENT_CHECKPOINTING,
 
     optim="adamw_torch",
-    logging_steps=1 if SMOKE_TEST else 10,
+    logging_steps=1,
 
     save_strategy="no",
     eval_strategy="no",
