@@ -1,0 +1,403 @@
+{
+  "config": {
+    "base_model": "Qwen/Qwen3-0.6B",
+    "adapter": "C:\\Users\\admin\\Desktop\\next-js-expert-llm\\models\\nextjs-lora-test",
+    "max_new_tokens": 96,
+    "question_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  },
+  "records": [
+    {
+      "model": "base",
+      "id": 1,
+      "question": "How do you create a dynamic route segment in the Next.js App Router?",
+      "answer": "Creating a **dynamic route segment** in **Next.js** using the **App Router** is a common practice when you want to dynamically generate routes based on user input or state. This is especially useful when you need to handle different paths based on the current URL.\n\n### ✅ How to Create a Dynamic Route Segment in Next.js App Router\n\n#### 1. **Use the `useRouter` Hook**\n\nThe `useRouter` hook is the most common way to handle dynamic",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.16326530612244897
+    },
+    {
+      "model": "base",
+      "id": 2,
+      "question": "Which file defines the shared UI that wraps a route segment and its children in the App Router?",
+      "answer": "The file that defines the **shared UI** that wraps a route segment and its children in the **App Router** is typically the **`App.js`** file. This file is used to define the structure and layout of the application, including the routing logic and the UI components that are shared across different route segments.\n\n### Example:\n```javascript\n// App.js\nimport React from 'react';\nimport { BrowserRouter as Router, Route, Routes } from 'react-router-dom';",
+      "correct": true,
+      "keyword_recall": 1.0,
+      "relevance_f1": 0.25641025641025644
+    },
+    {
+      "model": "base",
+      "id": 3,
+      "question": "Which file makes a route segment publicly accessible in the App Router?",
+      "answer": "In the **App Router**, a **route segment** is typically a part of a URL path that defines the endpoint of a route. For a route to be **publicly accessible**, it must be **available in the browser** and **not blocked by the server**.\n\n### When a route segment is publicly accessible:\n- It is **not blocked by the server**.\n- It is **not hidden or restricted** by the server.\n- It is **available in the browser",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.26666666666666666
+    },
+    {
+      "model": "base",
+      "id": 4,
+      "question": "What directive marks a file as a Client Component in Next.js?",
+      "answer": "In **Next.js**, a file is marked as a **Client Component** if it is **not** a server-side rendered (SSR) or server-side rendered with static generation (SSG) file. This is typically determined by the `next.config.js` file, which defines the configuration for the Next.js application.\n\n### Key directive to mark a file as a Client Component:\n\n```js\nexport default {\n  // ... other configuration options ...\n  // If the file is",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.24242424242424243
+    },
+    {
+      "model": "base",
+      "id": 5,
+      "question": "What does the loading.js file do in the App Router?",
+      "answer": "The `loading.js` file in the App Router is typically used to **load and manage the state of a component**. It is often used in **React** or **Vue** applications to handle loading states, such as loading data, performing asynchronous operations, or managing component lifecycle events.\n\n### Key functions in `loading.js`:\n\n1. **`load()`**: This function is used to **load data or components** from a remote source. It may involve making an API",
+      "correct": true,
+      "keyword_recall": 1.0,
+      "relevance_f1": 0.09302325581395349
+    },
+    {
+      "model": "base",
+      "id": 6,
+      "question": "Which file defines an error boundary for a route segment in the App Router?",
+      "answer": "The **App Router** does **not** define an error boundary directly. Instead, **error boundaries** are typically defined in the **App Router's configuration** or in the **App component** that is being used. \n\n### How error boundaries work in the App Router:\n- **Error boundaries** are components that catch errors in a route and provide a fallback UI.\n- They are typically defined in the **App component** (e.g., `App.js`) and are used",
+      "correct": true,
+      "keyword_recall": 1.0,
+      "relevance_f1": 0.36363636363636365
+    },
+    {
+      "model": "base",
+      "id": 7,
+      "question": "Which file renders UI when notFound() is called for a route segment?",
+      "answer": "When a `notFound()` method is called for a route segment, it typically renders a **404 page**. However, the specific file that renders the UI when a `notFound()` is called depends on the **framework or library** you're using.\n\n### Example:\n- **In Flask**:\n  - If you use `@app.route('/')` and `@app.route('/notfound')`, then calling `notFound()` will render a 40",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.3333333333333333
+    },
+    {
+      "model": "base",
+      "id": 8,
+      "question": "Which function redirects the user to another URL from a Server Component?",
+      "answer": "The function that redirects the user to another URL from a **Server Component** is typically implemented using the **`Redirect`** function in web development frameworks like **ASP.NET**, **Node.js**, or **React**. \n\nFor example, in **ASP.NET**, you might use:\n\n```csharp\nResponse.Redirect(\"https://example.com\");\n```\n\nIn **Node.js**, you could use:\n\n```javascript\nres.redirect(302, \"https://example.com\");",
+      "correct": true,
+      "keyword_recall": 1.0,
+      "relevance_f1": 0.32432432432432434
+    },
+    {
+      "model": "base",
+      "id": 9,
+      "question": "What directive declares a Server Action in Next.js?",
+      "answer": "In **Next.js**, a **Server Action** is a directive used to define a function that runs on the server side. It is typically used in the `next.config.js` file to handle server-side rendering (SSR) or server-side rendering with server-side rendering (SSR) support.\n\n### Example of a Server Action in `next.config.js`:\n\n```js\nmodule.exports = {\n  // ... other configuration options ...\n  // Define a server action\n  server",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.27586206896551724
+    },
+    {
+      "model": "base",
+      "id": 10,
+      "question": "Which hook returns the current pathname in a Client Component?",
+      "answer": "The **`Location`** hook returns the current pathname in a **Client Component**. It is commonly used in React to navigate between different pages or components.\n\n### Example:\n```jsx\nimport { Location } from 'react-router-dom';\n\nconst MyComponent = () => {\n  const location = useLocation();\n\n  return (\n    <div>\n      Current path: {location.pathname}\n    </div>\n  );\n};\n```\n\n### Key points:\n- `useLocation()` is",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.2777777777777778
+    },
+    {
+      "model": "base",
+      "id": 11,
+      "question": "Which hook reads URL search parameters in a Client Component?",
+      "answer": "The **`URLSearchParams`** object is used to read URL search parameters in a **Client Component**. It allows you to extract query string parameters from a URL.\n\n### Example:\n```javascript\nconst searchParams = new URLSearchParams(window.location.search);\nconst query = searchParams.get('key');\nconsole.log(query); // Outputs the value of the 'key' parameter\n```\n\n### Summary:\n- **Hook**: `URLSearchParams`\n- **Purpose**: To extract URL search",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.20512820512820515
+    },
+    {
+      "model": "base",
+      "id": 12,
+      "question": "Which component should you use to render optimized images in Next.js?",
+      "answer": "To render optimized images in **Next.js**, you should use the **`useImage`** hook. This hook helps you manage and render images efficiently, especially when you're using **Next.js** with **Vite** or **Vite + Next.js**.\n\n### ✅ How to Use `useImage`:\n\n1. **Import the `useImage` hook** from `next/image`:\n\n   ```jsx\n   import { useImage } from 'next/image",
+      "correct": true,
+      "keyword_recall": 1.0,
+      "relevance_f1": 0.4166666666666667
+    },
+    {
+      "model": "base",
+      "id": 13,
+      "question": "Which component should you use for client-side navigation between routes?",
+      "answer": "For client-side navigation between routes, you should use **React Router**. It provides a robust and flexible way to manage routing in web applications.\n\n### Key Components:\n- **`BrowserRouter`**: This is the main component used for routing. It handles the navigation between routes.\n- **`Route`**: This component defines a specific route and its associated components.\n- **`Link`**: This component is used to create links to different routes.\n\n### Example:\n```jsx\nimport",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.22727272727272727
+    },
+    {
+      "model": "base",
+      "id": 14,
+      "question": "Which function revalidates cached data for a specific path in Next.js?",
+      "answer": "In Next.js, the function that revalidates cached data for a specific path is **`usePath`**.\n\n### Explanation:\n- `usePath` is a hook that helps you determine the current path in the URL.\n- It can be used to revalidate cached data for a specific path by checking if the path has changed.\n\n### Example:\n```jsx\nconst path = usePath('/users');\n```\n\nThis will return the current path in the URL, which can",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.26666666666666666
+    },
+    {
+      "model": "base",
+      "id": 15,
+      "question": "What export is used to set page metadata in the App Router?",
+      "answer": "In the **App Router**, the **`export`** keyword is used to **export** a function or a module from a file. However, the **page metadata** is typically set using the **`useNavigate`** or **`useLocation`** hooks in the **App Router**.\n\n### When to Use `export`:\n- You can use `export` to **export** a function or a module from a file, which is useful when you want to",
+      "correct": true,
+      "keyword_recall": 1.0,
+      "relevance_f1": 0.3846153846153846
+    },
+    {
+      "model": "base",
+      "id": 16,
+      "question": "What file replaces middleware for intercepting requests in Next.js 16?",
+      "answer": "In **Next.js 16**, the **`next.config.js`** file is used to configure the application, including setting up middleware for intercepting requests. However, **there is no specific file that replaces middleware for intercepting requests in Next.js 16**.\n\nInstead, **Next.js 16 uses the `next.config.js` file** to define the middleware, which is used to intercept incoming requests and process them in the server-side.\n\nIf you're",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.24242424242424243
+    },
+    {
+      "model": "base",
+      "id": 17,
+      "question": "Which file defines a route handler (API endpoint) in the App Router?",
+      "answer": "The **file that defines a route handler (API endpoint)** in the **App Router** is typically the **`app.js`** file. This file is used to define the routes and the corresponding handlers for the API endpoints.\n\n### Example:\n```javascript\n// app.js\nimport { defineApp } from 'app';\n\nexport default defineApp({\n  routes: [\n    {\n      path: '/users',\n      handler: (req, res) => {\n        // Handle user",
+      "correct": true,
+      "keyword_recall": 1.0,
+      "relevance_f1": 0.27027027027027023
+    },
+    {
+      "model": "base",
+      "id": 18,
+      "question": "Which function pre-generates dynamic route segments at build time?",
+      "answer": "The function that **pre-generates dynamic route segments at build time** is typically **`generate_route_segments()`**.\n\nThis function is used to create the route segments that are then used during the **build process** to generate the final output. It is often part of a build system or configuration tool that dynamically generates the required segments based on the project's configuration.\n\nIf you're referring to a specific framework or tool, the exact implementation might vary, but the general idea is",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.17777777777777776
+    },
+    {
+      "model": "base",
+      "id": 19,
+      "question": "How do you create a route group that does not affect the URL path?",
+      "answer": "To create a **route group** that **does not affect the URL path**, you can use **route aliases** or **route patterns** that are **not part of the URL path**. This means the route group will not be included in the URL when the route is called.\n\n### How to do this:\n\n#### 1. **Use route aliases**\nYou can define a route that is not part of the URL path by using a **route alias**. This is useful",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.08333333333333333
+    },
+    {
+      "model": "base",
+      "id": 20,
+      "question": "What prefix is used for parallel route slots in the App Router?",
+      "answer": "The **App Router** (often used in React or Vue) does **not** use a prefix for parallel route slots. Instead, it uses a **default route structure** where each route is defined in the `routes.js` file, and the App Router automatically handles the routing based on the route names.\n\n### Example:\n```javascript\nexport default {\n  routes: [\n    { path: '/', component: App },\n    { path: '/users', component: User },",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.15
+    },
+    {
+      "model": "adapter",
+      "id": 1,
+      "question": "How do you create a dynamic route segment in the Next.js App Router?",
+      "answer": "Creating a **dynamic route segment** in **Next.js** using the **App Router** is a common practice when you want to dynamically generate routes based on user input or state. This is especially useful when you need to handle different paths based on the current URL.\n\n### ✅ How to Create a Dynamic Route Segment in Next.js App Router\n\n#### 1. **Use the `useRouter` Hook**\n\nThe `useRouter` hook is the most common way to handle dynamic",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.16326530612244897
+    },
+    {
+      "model": "adapter",
+      "id": 2,
+      "question": "Which file defines the shared UI that wraps a route segment and its children in the App Router?",
+      "answer": "The file that defines the **shared UI** that wraps a route segment and its children in the **App Router** is typically the **`App.js`** file. This file is used to define the structure and layout of the application, including the navigation and UI components that are shared across different route segments.\n\n### Example:\n```jsx\nimport React from 'react';\nimport { BrowserRouter as Router, Route, Routes } from 'react-router-dom';\n\nconst App = () => {",
+      "correct": true,
+      "keyword_recall": 1.0,
+      "relevance_f1": 0.25641025641025644
+    },
+    {
+      "model": "adapter",
+      "id": 3,
+      "question": "Which file makes a route segment publicly accessible in the App Router?",
+      "answer": "In the **App Router**, a **route segment** is typically a part of a URL path that defines the endpoint of a route. For a route to be **publicly accessible**, it must be accessible from the **public domain**.\n\n### When is a route segment publicly accessible?\n\n- **In the App Router**, a route segment is **publicly accessible** when it is part of a **public route**.\n- A **public route** is defined in the `app",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.2962962962962963
+    },
+    {
+      "model": "adapter",
+      "id": 4,
+      "question": "What directive marks a file as a Client Component in Next.js?",
+      "answer": "In **Next.js**, a file is marked as a **Client Component** (i.e., a component that is rendered **on the client side**) when it is **not** a server-side rendered (SSR) component. This is typically determined by the `import()` statement in the file.\n\n### When a file is marked as a Client Component:\n- The file is **not** a server-side rendered component.\n- It is used in **client-side rendering** (e",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.18181818181818182
+    },
+    {
+      "model": "adapter",
+      "id": 5,
+      "question": "What does the loading.js file do in the App Router?",
+      "answer": "The `loading.js` file in the App Router is typically used to **load and manage dynamic content** or **data** that is not yet fully rendered. It is often used in **SPA (Single Page Application)** or **React** projects to load components or data that will be rendered later.\n\n### Key functions of `loading.js` in App Router:\n\n1. **Load Components or Data**:\n   - It can load components or data that will be rendered later. This",
+      "correct": true,
+      "keyword_recall": 1.0,
+      "relevance_f1": 0.17142857142857143
+    },
+    {
+      "model": "adapter",
+      "id": 6,
+      "question": "Which file defines an error boundary for a route segment in the App Router?",
+      "answer": "The **App Router** does **not** define an error boundary directly. Instead, **error boundaries** are typically defined in the **App Router's configuration** or in the **App component** itself.\n\n### What is an error boundary?\nAn **error boundary** is a component that:\n- Reacts to an error in a route.\n- Provides a fallback or warning to the user.\n- Is used to prevent infinite loops or other issues.\n\n### How to define an error boundary",
+      "correct": true,
+      "keyword_recall": 1.0,
+      "relevance_f1": 0.2702702702702703
+    },
+    {
+      "model": "adapter",
+      "id": 7,
+      "question": "Which file renders UI when notFound() is called for a route segment?",
+      "answer": "When a `notFound()` method is called for a route segment, it typically renders a **404 page**. However, the specific file that renders the UI when a `notFound()` is called depends on the **framework or library** you're using.\n\n### Example:\n- **In Flask**:\n  - If you use `@app.route('/')` and `@app.route('/notfound')`, then calling `notFound()` will render a 40",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.3333333333333333
+    },
+    {
+      "model": "adapter",
+      "id": 8,
+      "question": "Which function redirects the user to another URL from a Server Component?",
+      "answer": "The function that redirects the user to another URL from a **Server Component** is typically implemented using the **`Redirect`** function in web development frameworks like **ASP.NET**, **Node.js**, or **React**. \n\nFor example, in **ASP.NET**, you might use:\n\n```csharp\nResponse.Redirect(\"https://example.com\");\n```\n\nIn **Node.js**, you could use:\n\n```javascript\nres.redirect(302, \"https://example.com\");",
+      "correct": true,
+      "keyword_recall": 1.0,
+      "relevance_f1": 0.32432432432432434
+    },
+    {
+      "model": "adapter",
+      "id": 9,
+      "question": "What directive declares a Server Action in Next.js?",
+      "answer": "In **Next.js**, a **Server Action** is a directive used to define a function that runs on the server side, typically when a component is rendered. This is useful for handling server-side rendering (SSR) or server-side rendering with server-side rendering (SSR) support.\n\n### What directive declares a Server Action in Next.js?\n\nThe directive is **`useServerAction`**.\n\n### Example:\n\n```jsx\nimport { useServerAction } from 'next/server",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.20689655172413796
+    },
+    {
+      "model": "adapter",
+      "id": 10,
+      "question": "Which hook returns the current pathname in a Client Component?",
+      "answer": "The **`window.location.pathname`** returns the current **pathname** in a **Client Component**.\n\n### Explanation:\n- `window.location.pathname` is a method that returns the **relative path** of the current URL (e.g., `/home/user/`).\n- It is typically used in **Client Components** (like React components) to access the current URL path.\n\n### Example:\n```javascript\nconst MyComponent = () => {\n  const currentPath = window.location",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.36363636363636365
+    },
+    {
+      "model": "adapter",
+      "id": 11,
+      "question": "Which hook reads URL search parameters in a Client Component?",
+      "answer": "The **`URLSearchParams`** object is used to read URL search parameters in a **Client Component**. It allows you to extract query string parameters from a URL.\n\n### Example:\n```javascript\nconst searchParams = new URLSearchParams(window.location.search);\nconst query = searchParams.get('key');\nconsole.log(query); // Outputs the value of the 'key' parameter\n```\n\n### Summary:\n- **Hook**: `URLSearchParams`\n- **Purpose**: To extract URL search",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.20512820512820515
+    },
+    {
+      "model": "adapter",
+      "id": 12,
+      "question": "Which component should you use to render optimized images in Next.js?",
+      "answer": "To render optimized images in **Next.js**, you should use the **`useImage`** hook. This hook helps you manage and render images efficiently, especially when you're using **Next.js** with **Vite** or **Vite + Next.js**.\n\n### ✅ How to Use `useImage`:\n\n1. **Import the `useImage` hook** from `next/image`:\n\n   ```jsx\n   import { useImage } from 'next/image",
+      "correct": true,
+      "keyword_recall": 1.0,
+      "relevance_f1": 0.4166666666666667
+    },
+    {
+      "model": "adapter",
+      "id": 13,
+      "question": "Which component should you use for client-side navigation between routes?",
+      "answer": "For client-side navigation between routes, you should use **React Router**. It provides a robust and flexible way to manage routing in web applications.\n\n### Key Components:\n- **`BrowserRouter`**: This is the main component used for routing. It handles the navigation between routes.\n- **`Route`**: This component defines a specific route and its associated components.\n- **`Link`**: A component that creates a navigation link between routes.\n\n### Example:\n```jsx\nimport React",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.23809523809523805
+    },
+    {
+      "model": "adapter",
+      "id": 14,
+      "question": "Which function revalidates cached data for a specific path in Next.js?",
+      "answer": "In Next.js, the function that revalidates cached data for a specific path is **`usePath`**.\n\n### Explanation:\n- `usePath` is a hook that helps you determine the current path in the URL.\n- It can be used to revalidate cached data for a specific path by checking if the path has changed.\n\n### Example:\n```jsx\nconst path = usePath('/users');\n```\n\nThis will return the current path in the URL, which can",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.26666666666666666
+    },
+    {
+      "model": "adapter",
+      "id": 15,
+      "question": "What export is used to set page metadata in the App Router?",
+      "answer": "In the **App Router**, the **`export`** keyword is used to **export** a function or a module from a file. However, the **page metadata** is typically set using the **`useNavigate`** or **`useLocation`** hooks in the **App Router** configuration.\n\n### When to Use `export` in App Router:\n- You **export** a function or a module from a file to use it in another file.\n- This is",
+      "correct": true,
+      "keyword_recall": 1.0,
+      "relevance_f1": 0.3846153846153846
+    },
+    {
+      "model": "adapter",
+      "id": 16,
+      "question": "What file replaces middleware for intercepting requests in Next.js 16?",
+      "answer": "In **Next.js 16**, the **`next.config.js`** file is used to configure the application, including setting up middleware for intercepting requests. However, **there is no specific file that replaces middleware for intercepting requests in Next.js 16**.\n\nInstead, **Next.js 16 uses the `next.config.js` file** to define the middleware, which is used to intercept incoming requests and process them in the server-side.\n\nIf you're",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.24242424242424243
+    },
+    {
+      "model": "adapter",
+      "id": 17,
+      "question": "Which file defines a route handler (API endpoint) in the App Router?",
+      "answer": "The **file that defines a route handler (API endpoint)** in the **App Router** is typically the **`app.js`** file. This file is used to define the routes and the corresponding handlers for the API endpoints.\n\n### Example:\n```javascript\n// app.js\nimport { defineApp } from 'app';\n\nexport default defineApp({\n  routes: [\n    {\n      path: '/users',\n      handler: (req, res) => {\n        // Handle user",
+      "correct": true,
+      "keyword_recall": 1.0,
+      "relevance_f1": 0.27027027027027023
+    },
+    {
+      "model": "adapter",
+      "id": 18,
+      "question": "Which function pre-generates dynamic route segments at build time?",
+      "answer": "The function that **pre-generates dynamic route segments at build time** is typically **`generate_route_segments()`**.\n\nThis function is used to create the route segments that are then used during the **build process** to generate the final output. It is often part of a build system or configuration tool that dynamically generates the required segments based on the project's configuration.\n\nIf you're working with a specific build system (e.g., Gradle, Maven, or a custom build",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.2
+    },
+    {
+      "model": "adapter",
+      "id": 19,
+      "question": "How do you create a route group that does not affect the URL path?",
+      "answer": "To create a **route group** that **does not affect the URL path**, you can use **route aliases** or **route patterns** that are **not part of the URL path**. This means the route group will not be included in the URL when the route is called.\n\n### How to do this:\n\n#### 1. **Use route aliases**\nYou can define a route that is not part of the URL path by using a **route alias**. This is useful",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.08333333333333333
+    },
+    {
+      "model": "adapter",
+      "id": 20,
+      "question": "What prefix is used for parallel route slots in the App Router?",
+      "answer": "The **App Router** (often used in React or Vue) does **not** use a prefix for parallel route slots. Instead, it uses a **default route structure** where each route is defined in the `routes.js` file, and the App Router automatically handles the routing based on the route names.\n\n### Example:\n```javascript\nexport default {\n  routes: [\n    { path: '/', component: App },\n    { path: '/users', component: User },",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.15
+    }
+  ],
+  "summary": {
+    "base": {
+      "accuracy": 0.35,
+      "keyword_recall": 0.35,
+      "relevance_f1": 0.25104394348150794
+    },
+    "adapter": {
+      "accuracy": 0.35,
+      "keyword_recall": 0.35,
+      "relevance_f1": 0.25124397312820956
+    }
+  }
+}
