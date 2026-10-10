@@ -28,6 +28,23 @@ random.seed(42)
 # 2. CLEAN MDX DOCUMENTATION
 # ==========================================
 
+def remove_prose_imports(content):
+    """Drop `import` lines outside code fences. Keep them inside code blocks."""
+    kept = []
+    in_fence = False
+
+    for line in content.split("\n"):
+        if line.strip().startswith("```"):
+            in_fence = not in_fence
+
+        if not in_fence and re.match(r"^import\s+.*$", line):
+            continue
+
+        kept.append(line)
+
+    return "\n".join(kept)
+
+
 def clean_mdx(content):
 
     # Remove YAML frontmatter
@@ -54,13 +71,9 @@ def clean_mdx(content):
         flags=re.DOTALL,
     )
 
-    # Remove simple import statements
-    content = re.sub(
-        r"^import\s+.*$",
-        "",
-        content,
-        flags=re.MULTILINE,
-    )
+    # Remove import statements that sit outside code blocks.
+    # Imports inside ``` fences are kept, since they are part of the example.
+    content = remove_prose_imports(content)
 
     # Normalize extra empty lines
     content = re.sub(
