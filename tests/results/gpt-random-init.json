@@ -1,0 +1,189 @@
+{
+  "name": "random-init",
+  "checkpoint": "random initialization (seed 0)",
+  "stage": "random-init",
+  "step": 0,
+  "parameters": 10444608,
+  "config": {
+    "vocab_size": 8000,
+    "context_length": 512,
+    "n_layer": 8,
+    "n_head": 6,
+    "n_embd": 288,
+    "dropout": 0.1,
+    "tie_weights": true
+  },
+  "tokenizer": "models/gpt/tokenizer.json",
+  "decoding": "greedy",
+  "max_new_tokens": 160,
+  "questions_file": "questions.json",
+  "num_questions": 20,
+  "evaluated_at": "2026-10-10T07:34:12+00:00",
+  "summary": {
+    "accuracy": 0.0,
+    "keyword_recall": 0.0,
+    "relevance_f1": 0.0
+  },
+  "records": [
+    {
+      "id": 1,
+      "question": "How do you create a dynamic route segment in the Next.js App Router?",
+      "answer": ":::::::::::: upload upload upload upload upload upload uploadbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssets",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.0
+    },
+    {
+      "id": 2,
+      "question": "Which file defines the shared UI that wraps a route segment and its children in the App Router?",
+      "answer": ":::::::::::::::::: bu bu bu bu cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent cent need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need need",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.0
+    },
+    {
+      "id": 3,
+      "question": "Which file makes a route segment publicly accessible in the App Router?",
+      "answer": "::::::::::::: upload upload upload upload upload upload upload upload upload miss miss miss miss miss miss miss ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM ORM",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.0
+    },
+    {
+      "id": 4,
+      "question": "What directive marks a file as a Client Component in Next.js?",
+      "answer": ":::erateerateerate Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.0
+    },
+    {
+      "id": 5,
+      "question": "What does the loading.js file do in the App Router?",
+      "answer": "::::erateerateerate Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypressincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincluding",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.0
+    },
+    {
+      "id": 6,
+      "question": "Which file defines an error boundary for a route segment in the App Router?",
+      "answer": ":erateerateerate Cypress Cypress Cypress ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`}ivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedived extends extends extends extends extends extends extends extends extends extends extends extends extends extends",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.0
+    },
+    {
+      "id": 7,
+      "question": "Which file renders UI when notFound() is called for a route segment?",
+      "answer": "::erateerateerate Cypress Cypress Cypress ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`} ''}`}ivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedivedived extends extends extends extends extends extends extends extends extends extends extends extends extends",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.0
+    },
+    {
+      "id": 8,
+      "question": "Which function redirects the user to another URL from a Server Component?",
+      "answer": ":::::::::::::: upload upload upload upload upload upload upload upload upload�������efinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefined",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.0
+    },
+    {
+      "id": 9,
+      "question": "What directive declares a Server Action in Next.js?",
+      "answer": "::::erateerateerate Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Plugin verified verified verified verified verified verified verified verified verified verified verified verified verified verified verified verified verified Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable Disable",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.0
+    },
+    {
+      "id": 10,
+      "question": "Which hook returns the current pathname in a Client Component?",
+      "answer": ":::::erateerateerate Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypressincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincluding",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.0
+    },
+    {
+      "id": 11,
+      "question": "Which hook reads URL search parameters in a Client Component?",
+      "answer": ":::: subsequent subsequent subsequent subsequent subsequent subsequent subsequent subsequent subsequent subsequent subsequent subsequent subsequent subsequent subsequent subsequent subsequent subsequent subsequent subsequent subsequent subsequent catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError catchError",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.0
+    },
+    {
+      "id": 12,
+      "question": "Which component should you use to render optimized images in Next.js?",
+      "answer": "::erateerateerate Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.0
+    },
+    {
+      "id": 13,
+      "question": "Which component should you use for client-side navigation between routes?",
+      "answer": ":::erateerateerate Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypressincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincluding",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.0
+    },
+    {
+      "id": 14,
+      "question": "Which function revalidates cached data for a specific path in Next.js?",
+      "answer": ":::::::::::::::::::::inityinityinityinityIdsIdsIdsIdsIdsIdsIdsIdsIdsIdsIdsIdsIdsIdsIdsIdsIdsIdsIdsIdsIdsIdsIdsIdsIdsIdsIdsIdsIdsIdsIdsoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleoduleodule experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience experience",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.0
+    },
+    {
+      "id": 15,
+      "question": "What export is used to set page metadata in the App Router?",
+      "answer": "::::erateerateerate Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypressincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincluding",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.0
+    },
+    {
+      "id": 16,
+      "question": "What file replaces middleware for intercepting requests in Next.js 16?",
+      "answer": "::erateerateerate Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered prerendered",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.0
+    },
+    {
+      "id": 17,
+      "question": "Which file defines a route handler (API endpoint) in the App Router?",
+      "answer": ":::::::::::::::::::::: upload upload upload����������������aintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingaintingefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefinedefined",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.0
+    },
+    {
+      "id": 18,
+      "question": "Which function pre-generates dynamic route segments at build time?",
+      "answer": ":::erateerateerate Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypressincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincluding",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.0
+    },
+    {
+      "id": 19,
+      "question": "How do you create a route group that does not affect the URL path?",
+      "answer": "::::::::::::: upload upload upload upload upload upload uploadbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonbuttonAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssetsAssets",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.0
+    },
+    {
+      "id": 20,
+      "question": "What prefix is used for parallel route slots in the App Router?",
+      "answer": "::::erateerateerate Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypress Cypressincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincludingincluding",
+      "correct": false,
+      "keyword_recall": 0.0,
+      "relevance_f1": 0.0
+    }
+  ]
+}
